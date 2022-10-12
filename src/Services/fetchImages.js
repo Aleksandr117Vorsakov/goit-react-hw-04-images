@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-axios.default.baseURL = 'https://pixabay.com/api';
-const API_KEY = '29385448-a71fcce374d47abba8b3fae94';
+axios.defaults.baseURL = 'https://pixabay.com/api';
+const API_KEY = '29564392-99b52e0b657636333bb00736d';
 const options = 'image_type=photo&orientation=horizontal&safesearch=true';
 export const HITS_PER_PAGE = 12;
 
